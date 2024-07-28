@@ -1,0 +1,46 @@
+<div class="container mt-5">
+  <h4 class="mb-4">Shopping Cart</h4>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Product Name and Details</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of cartItems">
+        <td>
+          <p class="product-name">{{ item.title }}</p>
+        </td>
+        <td>{{ item.price | currency: 'INR' }}</td>
+        <td>
+          <div class="quantity-controls">
+            <button class="btn btn-secondary btn-sm" (click)="decrementQuantity(item.id)">-</button>
+            <span class="mx-2">{{ item.quantity }}</span>
+            <button class="btn btn-secondary btn-sm" (click)="incrementQuantity(item.id)">+</button>
+          </div>
+        </td>
+        <td>{{ item.price * item.quantity | currency: 'INR' }}</td>
+        <td>
+          <button class="btn btn-danger btn-sm" (click)="removeItem(item.id)">Remove</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="row mt-4">
+    <div class="col-md-6"></div>
+    <div class="col-md-6 text-right">
+      <div class="dis">
+      <p class="mb-2"><strong>Discount (10%):</strong> {{ discount | currency: 'INR' }}</p>
+      <p class="mb-2"><strong>Total:</strong> {{ (total - discount) | currency: 'INR' }}</p>
+    </div>
+      <div class="d-flex justify-content-end gap-3">
+        <button class="btn btn-outline-secondary" (click)="backToShopping()">Back to Shopping</button>
+        <button class="btn btn-primary">Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title text-center">Login</h2>
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+          <label for="username" class="form-label">Username</label>
+          <input type="text" id="username" class="form-control" formControlName="username" (input)="clearError('username')">
+          <div *ngIf="submitted && firstInvalidField === 'username' && f.username.errors" class="text-danger">
+            <div *ngIf="f.username.errors.required">Username is required</div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" class="form-control" formControlName="password" (input)="clearError('password')">
+          <div *ngIf="submitted && firstInvalidField === 'password' && f.password.errors" class="text-danger">
+            <div *ngIf="f.password.errors.required">Password is required</div>
+          </div>
+        </div>
+        <div *ngIf="errorMessage" class="text-danger mb-3">
+          {{ errorMessage }}
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+      <div class="text-center mt-3">
+        <p>Don't have an account? 
+          <button class="btn btn-link p-0" (click)="navigateToSignUp()">Sign Up</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

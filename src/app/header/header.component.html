@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Universal Shopping</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item" *ngIf="isLoggedIn | async">
+          <div class="d-flex align-items-center">
+            <span class="nav-link me-3">{{ currentUser?.firstName }} {{ currentUser?.lastName }}</span>
+            <a class="nav-link" routerLink="/cart">
+              <i class="bi bi-cart3"></i>
+              <span *ngIf="cartItemCount > 0" class="badge bg-danger">{{ cartItemCount }}</span>
+            </a>
+            <a class="nav-link ms-3" (click)="logout()">
+              <i class="bi bi-box-arrow-right"></i> Logout
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

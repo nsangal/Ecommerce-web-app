@@ -1,0 +1,46 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-4">
+      <img [src]="product.imageUrl" class="img-fluid mb-3" alt="Product Image">
+      <div class="product-info">
+        <p class="product-price">
+          <strong class="text-black">Product Price   : </strong> <span class="text-red">{{ product.price | currency:'INR' }}</span>
+        </p>
+        <p class="product-seller">
+          <strong class="text-black">Product Seller    : </strong> <span class="text-red">{{ product.seller }}</span>
+        </p>
+        <button class="btn btn-primary mt-2" (click)="addToCart(product)">Add to Cart</button>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <h4>Product Details</h4>
+      <div class="product-details">
+        <div class="detail-item">
+          <div class="detail-label">Product Name</div>
+          <div class="detail-colon">:</div>
+          <div class="detail-value">{{ product.title }}</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Description</div>
+          <div class="detail-colon">:</div>
+          <div class="detail-value">{{ product.description }}</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Category</div>
+          <div class="detail-colon">:</div>
+          <div class="detail-value">{{ product.category }}</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Quantity Available</div>
+          <div class="detail-colon">:</div>
+          <div class="detail-value">{{ product.quantity }}</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Added On</div>
+          <div class="detail-colon">:</div>
+          <div class="detail-value">{{ product.addedOn }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

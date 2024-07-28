@@ -1,0 +1,486 @@
+{
+  "users": [
+    {
+      "id": "85b8",
+      "email": "nsvsy@yah",
+      "firstName": "n",
+      "lastName": "s",
+      "password": "s",
+      "username": "sn"
+    },
+    {
+      "id": "7a19",
+      "email": "ga@y",
+      "firstName": "na",
+      "lastName": "sa",
+      "password": "sa",
+      "username": "sd"
+    },
+    {
+      "id": "d7da",
+      "email": "ss@g",
+      "firstName": "a",
+      "lastName": "d",
+      "password": "a",
+      "username": "w"
+    },
+    {
+      "id": "eb6c",
+      "email": "navyasangal09@gmail.com",
+      "firstName": "Navya",
+      "lastName": "Sangal",
+      "password": "n",
+      "username": "n"
+    },
+    {
+      "id": "3180",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "s",
+      "lastName": "s",
+      "password": "s",
+      "username": "sa"
+    },
+    {
+      "id": "ef81",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "Navya",
+      "lastName": "Sangal",
+      "password": "a",
+      "username": "a"
+    },
+    {
+      "id": "24db",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "Navya",
+      "lastName": "Sangal",
+      "password": "aditi",
+      "username": "aditi"
+    },
+    {
+      "id": "c578",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "Navya",
+      "lastName": "Sangal",
+      "password": "a",
+      "username": "q"
+    },
+    {
+      "id": "b167",
+      "email": "sangalnavya@yahoo.co.in",
+      "firstName": "navya",
+      "lastName": "Sangal",
+      "password": "navya",
+      "username": "navya"
+    },
+    {
+      "id": "1179",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "s",
+      "lastName": "s",
+      "password": "89241$4bB",
+      "username": "navyyyyyyyy"
+    },
+    {
+      "id": "ab6f",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "s",
+      "lastName": "s",
+      "password": "sn&79999",
+      "username": "s"
+    },
+    {
+      "id": "c2f4",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "Navya",
+      "lastName": "Sangal",
+      "password": "aA#3nnnn",
+      "username": " n"
+    },
+    {
+      "id": "233d",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "n",
+      "lastName": "a",
+      "password": "aA#3%fffff",
+      "username": "o"
+    },
+    {
+      "id": "3ae3",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "Navya",
+      "lastName": "Sangal",
+      "password": "Saransh1@",
+      "username": "Saransh"
+    },
+    {
+      "id": "c3d5",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "Navya",
+      "lastName": "Sangal",
+      "password": "nN5%4444",
+      "username": "n"
+    },
+    {
+      "id": "f98c",
+      "email": "sangalnavya9@gmail.com",
+      "firstName": "Navya",
+      "lastName": "Sangal",
+      "password": "Nn5%444#",
+      "username": "n"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Men's Cotton T-Shirt",
+      "price": 499,
+      "description": "Comfortable cotton t-shirt for men.",
+      "imageUrl": "assets/menstshirt.jpg",
+      "category": "Clothing",
+      "quantity": 50,
+      "addedOn": "2024-07-01",
+      "seller": "CottonKing"
+    },
+    {
+      "id": "2",
+      "title": "Women's Ethnic Kurti",
+      "price": 899,
+      "description": "Stylish ethnic kurti for women.",
+      "imageUrl": "assets/kurti.jpg",
+      "category": "Clothing",
+      "quantity": 30,
+      "addedOn": "2024-07-02",
+      "seller": "EthnicWear"
+    },
+    {
+      "id": "3",
+      "title": "Leather Jacket",
+      "price": 4999,
+      "description": "Stylish leather jacket perfect for any season.",
+      "imageUrl": "assets/leatherjacket.jpg",
+      "category": "Clothing",
+      "quantity": 20,
+      "addedOn": "2024-06-15",
+      "seller": "LeatherCraft"
+    },
+    {
+      "id": "4",
+      "title": "Denim Jeans",
+      "price": 2999,
+      "description": "Comfortable and trendy denim jeans for everyday wear.",
+      "imageUrl": "assets/jeans.jpg",
+      "category": "Clothing",
+      "quantity": 15,
+      "addedOn": "2024-06-20",
+      "seller": "DenimDen"
+    },
+    {
+      "id": "5",
+      "title": "Men's Formal Shirt",
+      "price": 799,
+      "description": "Elegant formal shirt for men.",
+      "imageUrl": "assets/shirt.jpg",
+      "category": "Clothing",
+      "quantity": 40,
+      "addedOn": "2024-07-03",
+      "seller": "FormalFinesse"
+    },
+    {
+      "id": "6",
+      "title": "Women's Summer Dress",
+      "price": 1299,
+      "description": "Light and breezy summer dress for women.",
+      "imageUrl": "assets/dress.jpg",
+      "category": "Clothing",
+      "quantity": 25,
+      "addedOn": "2024-07-04",
+      "seller": "SummerStyle"
+    },
+    {
+      "id": "7",
+      "title": "Men's Denim Jeans",
+      "price": 1199,
+      "description": "Classic blue denim jeans for men.",
+      "imageUrl": "assets/mensjeans.jpg",
+      "category": "Clothing",
+      "quantity": 35,
+      "addedOn": "2024-07-05",
+      "seller": "DenimDen"
+    },
+    {
+      "id": "8",
+      "title": "Women's Casual Blouse",
+      "price": 699,
+      "description": "Casual blouse with stylish design for women.",
+      "imageUrl": "assets/blouse.jpg",
+      "category": "Clothing",
+      "quantity": 50,
+      "addedOn": "2024-07-06",
+      "seller": "CasualCloset"
+    },
+    {
+      "id": "9",
+      "title": "Men's Leather Jacket",
+      "price": 3499,
+      "description": "Stylish leather jacket for men.",
+      "imageUrl": "assets/jacket.jpg",
+      "category": "Clothing",
+      "quantity": 10,
+      "addedOn": "2024-07-07",
+      "seller": "LeatherCraft"
+    },
+    {
+      "id": "10",
+      "title": "Women's Woolen Sweater",
+      "price": 1799,
+      "description": "Warm and cozy woolen sweater for women.",
+      "imageUrl": "assets/sweater.jpg",
+      "category": "Clothing",
+      "quantity": 20,
+      "addedOn": "2024-07-08",
+      "seller": "WinterWear"
+    },
+    {
+      "id": "11",
+      "title": "Men's Polo Shirt",
+      "price": 599,
+      "description": "Classic polo shirt for men.",
+      "imageUrl": "assets/polo.jpg",
+      "category": "Clothing",
+      "quantity": 45,
+      "addedOn": "2024-07-09",
+      "seller": "PoloParadise"
+    },
+    {
+      "id": "12",
+      "title": "Women's Skirt",
+      "price": 899,
+      "description": "Fashionable skirt for women.",
+      "imageUrl": "assets/skirt.jpg",
+      "category": "Clothing",
+      "quantity": 30,
+      "addedOn": "2024-07-10",
+      "seller": "FashionFemme"
+    },
+    {
+      "id": "13",
+      "title": "Men's Track Pants",
+      "price": 899,
+      "description": "Comfortable track pants for men.",
+      "imageUrl": "assets/jogger.jpg",
+      "category": "Clothing",
+      "quantity": 40,
+      "addedOn": "2024-07-11",
+      "seller": "AthleticApparel"
+    },
+    {
+      "id": "14",
+      "title": "Women's Jumpsuit",
+      "price": 1499,
+      "description": "Stylish jumpsuit for women.",
+      "imageUrl": "assets/jumpsuit.jpg",
+      "category": "Clothing",
+      "quantity": 15,
+      "addedOn": "2024-07-12",
+      "seller": "TrendyThreads"
+    },
+    {
+      "id": "15",
+      "title": "Men's Hooded Sweatshirt",
+      "price": 999,
+      "description": "Cozy hooded sweatshirt for men.",
+      "imageUrl": "assets/sweat.jpg",
+      "category": "Clothing",
+      "quantity": 25,
+      "addedOn": "2024-07-13",
+      "seller": "ComfyCloth"
+    },
+    {
+      "id": "16",
+      "title": "Women's Cardigan",
+      "price": 1399,
+      "description": "Stylish cardigan for women.",
+      "imageUrl": "assets/cardigan.jpg",
+      "category": "Clothing",
+      "quantity": 30,
+      "addedOn": "2024-07-14",
+      "seller": "WinterWear"
+    },
+    {
+      "id": "17",
+      "title": "Men's Cargo Shorts",
+      "price": 799,
+      "description": "Comfortable cargo shorts for men.",
+      "imageUrl": "assets/cargo.jpg",
+      "category": "Clothing",
+      "quantity": 35,
+      "addedOn": "2024-07-15",
+      "seller": "CasualCloset"
+    },
+    {
+      "id": "18",
+      "title": "Women's Palazzo Pants",
+      "price": 1099,
+      "description": "Elegant palazzo pants for women.",
+      "imageUrl": "assets/palazzo.jpg",
+      "category": "Clothing",
+      "quantity": 20,
+      "addedOn": "2024-07-16",
+      "seller": "FashionFemme"
+    },
+    {
+      "id": "19",
+      "title": "Men's Sweater Vest",
+      "price": 899,
+      "description": "Stylish sweater vest for men.",
+      "imageUrl": "assets/vneck.jpg",
+      "category": "Clothing",
+      "quantity": 25,
+      "addedOn": "2024-07-17",
+      "seller": "WinterWear"
+    },
+    {
+      "id": "20",
+      "title": "Women's Maxi Dress",
+      "price": 1599,
+      "description": "Elegant maxi dress for women.",
+      "imageUrl": "assets/maxidress.jpg",
+      "category": "Clothing",
+      "quantity": 15,
+      "addedOn": "2024-07-18",
+      "seller": "TrendyThreads"
+    },
+    {
+      "id": "21",
+      "title": "Men's Chinos",
+      "price": 1099,
+      "description": "Stylish chinos for men.",
+      "imageUrl": "assets/chinos.jpg",
+      "category": "Clothing",
+      "quantity": 40,
+      "addedOn": "2024-07-19",
+      "seller": "FormalFinesse"
+    },
+    {
+      "id": "22",
+      "title": "Women's Tunic Top",
+      "price": 799,
+      "description": "Trendy tunic top for women.",
+      "imageUrl": "assets/tunic.jpg",
+      "category": "Clothing",
+      "quantity": 30,
+      "addedOn": "2024-07-20",
+      "seller": "CasualCloset"
+    },
+    {
+      "id": "23",
+      "title": "Men's Casual Shorts",
+      "price": 699,
+      "description": "Comfortable casual shorts for men.",
+      "imageUrl": "assets/shorts.jpg",
+      "category": "Clothing",
+      "quantity": 45,
+      "addedOn": "2024-07-21",
+      "seller": "AthleticApparel"
+    },
+    {
+      "id": "24",
+      "title": "Women's Blazer",
+      "price": 2499,
+      "description": "Elegant blazer for women.",
+      "imageUrl": "assets/blazer.jpg",
+      "category": "Clothing",
+      "quantity": 10,
+      "addedOn": "2024-07-22",
+      "seller": "FormalFinesse"
+    },
+    {
+      "id": "25",
+      "title": "Men's Suit",
+      "price": 5999,
+      "description": "Classic suit for men.",
+      "imageUrl": "assets/suit.jpg",
+      "category": "Clothing",
+      "quantity": 5,
+      "addedOn": "2024-07-23",
+      "seller": "FormalFinesse"
+    },
+    {
+      "id": "26",
+      "title": "Women's Jeans",
+      "price": 1199,
+      "description": "Stylish jeans for women.",
+      "imageUrl": "assets/denim.jpg",
+      "category": "Clothing",
+      "quantity": 35,
+      "addedOn": "2024-07-24",
+      "seller": "DenimDen"
+    },
+    {
+      "id": "27",
+      "title": "Men's Casual Trousers",
+      "price": 899,
+      "description": "Comfortable casual trousers for men.",
+      "imageUrl": "assets/trouser.jpg",
+      "category": "Clothing",
+      "quantity": 30,
+      "addedOn": "2024-07-25",
+      "seller": "CasualCloset"
+    },
+    {
+      "id": "28",
+      "title": "Women's Jogger Pants",
+      "price": 1299,
+      "description": "Comfortable jogger pants for women.",
+      "imageUrl": "assets/joggers.jpg",
+      "category": "Clothing",
+      "quantity": 25,
+      "addedOn": "2024-07-26",
+      "seller": "AthleticApparel"
+    },
+    {
+      "id": "29",
+      "title": "Men's Casual Shoes",
+      "price": 1499,
+      "description": "Stylish and comfortable casual shoes for men.",
+      "imageUrl": "assets/shoes.jpg",
+      "category": "Footwear",
+      "quantity": 20,
+      "addedOn": "2024-07-27",
+      "seller": "FootFinesse"
+    },
+    {
+      "id": "30",
+      "title": "Women's Ballet Flats",
+      "price": 1299,
+      "description": "Elegant and comfortable ballet flats for women.",
+      "imageUrl": "assets/flats.jpg",
+      "category": "Footwear",
+      "quantity": 25,
+      "addedOn": "2024-07-28",
+      "seller": "FootFinesse"
+    },
+    {
+      "id": "31",
+      "title": "Men's Running Shoes",
+      "price": 1999,
+      "description": "High-performance running shoes for men.",
+      "imageUrl": "assets/running.jpg",
+      "category": "Footwear",
+      "quantity": 15,
+      "addedOn": "2024-07-29",
+      "seller": "AthleticApparel"
+    },
+    {
+      "id": "32",
+      "title": "Women's Heels",
+      "price": 1799,
+      "description": "Stylish and elegant heels for women.",
+      "imageUrl": "assets/heels.jpg",
+      "category": "Footwear",
+      "quantity": 20,
+      "addedOn": "2024-07-30",
+      "seller": "TrendyThreads"
+    }
+  ]
+}
